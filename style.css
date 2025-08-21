@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.de {
+    display: flex;
+    align-items: center;
+}
+
+.de p {
+    font-size: 36px;
+}
+
+header {
+    padding: 45px 0;
+    border-bottom: 2px solid #DEDBDB;
+    margin-bottom: 46px;
+}
+
+.FormCard {
+    width: 450px;
+    border-radius: 20px;
+    border: 1px solid #DEDBDB;
+    padding: 15px;
+    margin: 0 auto;
+}
+.vrame {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.formlogo {
+    width: 150px;
+}
+
+.le {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #F0400F;
+    margin-top: 5px;
+}
+
+.registratsiya h3 {
+color: #0E0D5D;
+font-size: 36px;
+text-align: center;
+margin-top: 127px;
+}
+
+.change {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d3d1d1;
+    border-radius: 10px;
+    padding: 10px;
+    color: #757575;
+    align-items: center;
+    margin-top: 53px;
+}
+
+.change p:hover {
+    background-color: white;
+    color: black;
+    padding: 8px 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 15px;
+    
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #75757530;
+    border-radius: 8px;
+    
+}
+
+.eye {
+    position: relative;
+}
+ .eyeinput {
+    position: absolute;
+    z-index: 1;
+ }
+ .eyeimage {
+    position: absolute;
+    z-index: 10;
+    top: 8px;
+    right: 8px;
+ }
+
+ .QR {
+    text-align: center;
+    color: #000000A3;
+    margin-top: 15px;
+ }
+
+ .btn {
+    padding: 17px 0px;
+    width: 200px;
+    border: none;
+    background-color: #F0400F;
+    color: white;
+    border-radius: 15px;
+    margin-left: 180px ;
+ }
+
+ .btn:hover {
+    background-color: #F69E86;
+ }
